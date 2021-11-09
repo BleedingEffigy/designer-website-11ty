@@ -1,6 +1,10 @@
 ---
-title: AWE.SOME Heading
+title: Who is Alex Hernandez?
 type: about
 ---
 
-Maecenas pulvinar ultricies dolor, vitae sagittis nunc aliquam non. Cras vitae eros mi. Pellentesque ac orci mi. Ut dignissim tincidunt ex id tincidunt. Vivamus vitae erat vel tellus condimentum consectetur.
+My name is Alex and I'm a webapp developer designing websites to promote the digital growth of entrepeneurs and companies.
+
+When it comes to my apps I'm always concerned with how fast they run. I'm continuously researching ways to improve them bit by bit. I'm also watching ways to make the development process quicker. 
+
+It's with these techniques that I can swiftly build efficient, tested, and reliable websites that will convert your customers and convert your business!
