@@ -1,17 +1,17 @@
 {
-  "baseURL": "https://awesome11ty.ttntm.me",
-  "author": "AWE.SOME",
-  "description": "AWE.SOMEty - A Landing Page Template for 11ty",
-  "title": "AWE.SOMEty - A Landing Page Template for 11ty",
+  "baseURL": "https://design.ahernandez.dev",
+  "author": "Alex Hernandez",
+  "description": "Promoting the digital growth of entrepreneurs and companies",
+  "title": "Phantom Exclusive - Digital Design & Growth",
   "language": "en",
   "social": [
     {
       "title": "Twitter",
-      "url": "https://twitter.com/#"
+      "url": "https://twitter.com/bleedingeffigy"
     },
     {
       "title": "LinkedIn",
-      "url": "https://linkedin.com/company/#"
+      "url": "https://www.linkedin.com/in/alex-hernandez-cloud-dev/"
     }
   ]
 }
