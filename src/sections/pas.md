@@ -3,12 +3,14 @@ title: What's wrong with my site?
 type: pas 
 ---
 
-You deserve to take part in your own learning. Don’t stand on the sidelines. Be in the starting lineup.
+You deserve to take control of your business, and in case you didn't know, there's alot you can do for your online growth.
 
-Vim for VSCode lets you do just that.
+Factors such as how fast the page loads, the layout of the landing page, down to the words you choose all can affect how many customers you convert.
 
-Here are our three science-backed learning techniques:
+This is where Phantom Exclusive steps in.
 
-1. Boosted discovery and conversions
+Here are three benefits for those who use my services
+
+1. Boosted traffic and conversions
 2. Increased mobile & social media presence
-3. Easy Code Handoff for the next guy
+3. Analysis of website content and Search Engine Optimization(SEO)
