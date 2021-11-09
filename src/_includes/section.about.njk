@@ -2,8 +2,8 @@
   {% if item.data.type === 'about' %}
     <div id="about" class="w-full flex flex-col justify-center items-center py-12">
       <div class="self-center w-full sm:w-2/3 xl:w-1/2 px-4 sm:px:0">
-        <h2 class="font-bold tracking-wider text-gray-800 text-4xl mb-4">{{ item.data.title }}</h2>
-        <div class="text-black text-xl font-medium prose">
+        <h2 class="font-bold tracking-wider text-primary text-4xl mb-4">{{ item.data.title }}</h2>
+        <div class="text-base-content text-xl font-medium prose">
           {{ item.templateContent | safe }}
         </div>
       </div>

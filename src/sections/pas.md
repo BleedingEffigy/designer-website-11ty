@@ -11,9 +11,9 @@ This is where Phantom Exclusive steps in.
 
 Here are three benefits for those who use my services
 
-1. Boosted traffic and conversions
-2. Increased mobile & social media presence
-3. Analysis of website content and Search Engine Optimization(SEO)
+<span class="text-accent">1. Boosted traffic and conversions</span>
+<span class="text-accent">2. Increased mobile & social media presence</span>
+<span class="text-accent">3. Analysis of website content and Search Engine Optimization(SEO)</span>
 
-## Not convinced yet?
+## <span class="text-secondary">Not convinced yet?</span>
 I'm on a campaign to get as many fresh testimonials as I can. Each client is an opportunity for me to challenge and improve myself. So right now you'll get the standard package $200 <span class="text-error">(30%!)</span> off, and you just have to give me an honest testimonial after delivery.
