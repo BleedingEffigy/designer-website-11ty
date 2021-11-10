@@ -6,50 +6,52 @@
         <h2 class="font-bold tracking-widest text-base-content text-4xl my-6">{{ item.data.title }}</h2>
         <div class="font-light text-base-content text-xl">
           {{ item.templateContent | safe }}
-        </div>
-        <img src="/img/pricetier.png" alt="pricing tier" class="mt-6">
-        <form class="w-full max-w-lg my-12 mx-auto" action="#" method="post" id="registration-form" target="_blank" validate>
-          <div class="flex items-center border-b border-purple-600 py-2">
-            <div class="form-control text-base-content">
-              <label class="label">
-                <span class="label-text">Name</span>
-              </label> 
-              <input type="text" placeholder="name" class="input">
-               <div class="form-control text-base-content">
+        </div>  
+      </div>
+      <div class="flex flex-col lg:flex-row w-3/4">
+          <form class="w-full justify-items-center my-12 mx-auto" action="#" method="post" id="registration-form" target="_blank" validate>
+            <div class="flex items-center border-b border-purple-600 py-2">
+              <div class="form-control text-base-content">
                 <label class="label">
-                  <span class="label-text">Email</span>
+                  <span class="label-text">Name</span>
                 </label> 
-                <input type="text" placeholder="email" class="input">
-                <label class="label">
-                  <span class="label-text">Subject</span>
-                </label> 
-                <select class="select select-bordered w-full max-w-xs text-base-content">
-                  <option disabled="disabled" selected="selected">Which service?</option> 
-                  <option>Website Design</option> 
-                  <option>Growth Analytics Consultation</option> 
-                  <option>WebApp Development</option>
-                  <option>Mobile App Development</option>
-                  <option>Other...</option>
-                </select>
-                <div class="form-control">
+                <input type="text" placeholder="name" class="input">
+                <div class="form-control text-base-content">
                   <label class="label">
-                    <span class="label-text">Message</span>
+                    <span class="label-text">Email</span>
                   </label> 
-                  <textarea class="textarea h-24 textarea-bordered mb-4 text-base-content" placeholder="Your message..."></textarea>
-                </div>
+                  <input type="text" placeholder="email" class="input">
+                  <label class="label">
+                    <span class="label-text">Subject</span>
+                  </label> 
+                  <select class="select select-bordered w-full max-w-xs text-base-content">
+                    <option disabled="disabled" selected="selected">Which service?</option> 
+                    <option>Website Design</option> 
+                    <option>Growth Analytics Consultation</option> 
+                    <option>WebApp Development</option>
+                    <option>Mobile App Development</option>
+                    <option>Other...</option>
+                  </select>
+                  <div class="form-control">
+                    <label class="label">
+                      <span class="label-text">Message</span>
+                    </label> 
+                    <textarea class="textarea h-24 textarea-bordered mb-4 text-base-content" placeholder="Your message..."></textarea>
+                  </div>
 
+                </div>
               </div>
             </div>
-          </div>
-          <label class="block text-base-content text-left px-2 my-4" for="gdpr_37169">
-            <input class="leading-tight" type="checkbox" id="gdpr_37169" name="gdpr[37169]" value="Y" required>
-            <span class="text-md font-light">
-              I agree with the <a href="/privacy" class="underline hover:no-underline hover:text-purple-600" title="Privacy Policy" target="_blank">Privacy Policy</a>
-            </span>
-          </label>
-          <button class='btn btn-lg btn-primary btn-wide rounded-full'>Submit</button>
-        </form>
-      </div>
+            <label class="block text-base-content text-left px-2 my-4" for="gdpr_37169">
+              <input class="leading-tight" type="checkbox" id="gdpr_37169" name="gdpr[37169]" value="Y" required>
+              <span class="text-md font-light">
+                I agree with the <a href="/privacy" class="underline hover:no-underline hover:text-purple-600" title="Privacy Policy" target="_blank">Privacy Policy</a>
+              </span>
+            </label>
+            <button class='btn btn-lg btn-primary btn-wide rounded-full'>Submit</button>
+          </form>
+          <img src="/img/pricetier.png" alt="pricing tier" class="w-full order-first lg:order-last lg:w-3/4 object-contain mt-6">
+        </div>
     </div>
   {% endif %}
 {% endfor %}
