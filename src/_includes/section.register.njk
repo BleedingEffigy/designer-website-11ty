@@ -12,31 +12,31 @@
           <form class="w-full justify-items-center my-12 mx-auto" action="#" method="post" id="registration-form" name="designs contact form" target="_blank" validate netlify>
             <div class="flex items-center border-b border-purple-600 py-2">
               <div class="form-control text-base-content">
-                <label class="label">
+                <label class="label" for="name">
                   <span class="label-text">Name</span>
                 </label> 
-                <input type="text" placeholder="name" class="input">
+                <input type="text" placeholder="name" class="input" id="name" name="name">
                 <div class="form-control text-base-content">
-                  <label class="label">
+                  <label class="label" for="email">
                     <span class="label-text">Email</span>
                   </label> 
-                  <input type="text" placeholder="email" class="input">
-                  <label class="label">
+                  <input type="text" placeholder="email" class="input" id="email" name="email">
+                  <label class="label" for="subject">
                     <span class="label-text">Subject</span>
                   </label> 
-                  <select class="select select-bordered w-full max-w-xs text-base-content">
+                  <select class="select select-bordered w-full max-w-xs text-base-content" id="subject" name="subject">
                     <option disabled="disabled" selected="selected">Which service?</option> 
-                    <option>Website Design</option> 
-                    <option>Growth Analytics Consultation</option> 
-                    <option>WebApp Development</option>
-                    <option>Mobile App Development</option>
-                    <option>Other...</option>
+                    <option value="Website Design<">Website Design</option> 
+                    <option value="Growth Analytics Consultation<">Growth Analytics Consultation</option> 
+                    <option value="WebApp Development<">WebApp Development</option>
+                    <option value="Mobile App Development<">Mobile App Development</option>
+                    <option value="Other...<">Other...</option>
                   </select>
                   <div class="form-control">
-                    <label class="label">
+                    <label class="label" for="message">
                       <span class="label-text">Message</span>
                     </label> 
-                    <textarea class="textarea h-24 textarea-bordered mb-4 text-base-content" placeholder="Your message..."></textarea>
+                    <textarea class="textarea h-24 textarea-bordered mb-4 text-base-content" placeholder="Your message..." id="message" name="message"></textarea>
                   </div>
 
                 </div>
