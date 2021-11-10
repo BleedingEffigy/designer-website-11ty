@@ -3,4 +3,4 @@ title: Registration
 type: register
 ---
 
-Maecenas pulvinar ultricies dolor, vitae sagittis nunc aliquam non. Cras vitae eros mi.
+Tell me a little about yourself and what you want to gain from my services, and I'll get back to you within a day
