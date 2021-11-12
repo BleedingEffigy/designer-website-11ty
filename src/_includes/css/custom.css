@@ -82,7 +82,7 @@ html {
 }
 
 .header {
-    background-image: url("../img/bg_coding.jpg") , linear-gradient(135deg, rgba(22, 70, 143, 0.37) 0%,rgba(122, 54, 54, 0.603) 20%,rgba(226, 45, 45, 0.151) 80%,rgba(48, 96, 168, 0.589) 100%);
+    background-image: url("/img/bg_coding.jpg") , linear-gradient(135deg, rgba(22, 70, 143, 0.37) 0%,rgba(122, 54, 54, 0.603) 20%,rgba(226, 45, 45, 0.151) 80%,rgba(48, 96, 168, 0.589) 100%);
     background-position: center;
 }
 
