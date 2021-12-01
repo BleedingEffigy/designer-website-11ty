@@ -980,6 +980,7 @@ module.exports = {
   ],
   daisyui: {
     themes: [
+      'dracula',
       {
         'mars': {
           'primary': '#f95e4d',
